@@ -1,0 +1,44 @@
+[gd_resource type="TileSet" load_steps=3 format=3 uid="uid://8p2udh4dusd5"]
+
+[ext_resource type="Texture2D" uid="uid://bodsscad15jv5" path="res://assets/snake_sheet2.png" id="1_rc6u2"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_rc6u2"]
+texture = ExtResource("1_rc6u2")
+margins = Vector2i(16, 16)
+separation = Vector2i(16, 16)
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+0:6/0 = 0
+1:6/0 = 0
+2:6/0 = 0
+3:6/0 = 0
+4:6/0 = 0
+4:0/0 = 0
+
+[resource]
+tile_size = Vector2i(32, 32)
+physics_layer_0/collision_layer = 1
+sources/0 = SubResource("TileSetAtlasSource_rc6u2")
